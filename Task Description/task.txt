@@ -1,0 +1,23 @@
+Preface:
+This task is meant to assess your basic competencies in frontend development. The task is open book, feel free to alt tab and open as many stackoverflow tabs as you wish. 
+The task will involve making certain changes to a test app, under the for_interview folder. 
+To keep the interview short, we will limit the amount of time you are given to work on the task. Don't be stressed if you are unable to complete the task. 
+To aid in our assessment, you are recommended to vocalise your thought processes as you work on the task
+
+Running the test app:
+Install packages using npm, then run the app using 'node main'
+You should then be able to access the app at http://127.0.0.1:9001/
+
+Task:
+MAIN TASK: You are required to create an announcements panel on the right-side panel (blue background), that will display announcements from the server. Refer to the mockup at MOCKUP.jpg
+BONUS TASK 1: Change the background colour of the announcements panel to the SPhL blue (refer to the real official SPhL site)
+BONUS TASK 2: Fix the weird horizontal scrolling bug
+BONUS TASK 3: Implement auto-refresh for the announcements
+
+Backend documentation:
+GET /announcements - returns { success, announcements } 
+announcements is an array of announcement objects, each having the following properties
+ - title
+ - description
+ - time (as a pre-formatted string)
+
